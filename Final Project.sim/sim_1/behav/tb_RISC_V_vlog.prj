@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  "../../../../Lab8/Lab8.srcs/sources_1/new/ALUController.sv"
+sv xil_defaultlib  "../../../../Lab8/Lab8.srcs/sources_1/new/Controller.sv"
+sv xil_defaultlib  "../../../Final Project.srcs/sources_1/new/RISC_V.sv"
+sv xil_defaultlib  "../../../../Lab 7/Lab 7.srcs/sources_1/new/alu.sv"
+sv xil_defaultlib  "../../../../Lab 7/Lab 7.srcs/sources_1/new/datamemory.sv"
+sv xil_defaultlib  "../../../../Lab 7/Lab 7.srcs/sources_1/new/datapath.sv"
+sv xil_defaultlib  "../../../../Lab 7/Lab 7.srcs/sources_1/new/imm_Gen.sv"
+sv xil_defaultlib  "../../../Final Project.srcs/sources_1/new/instructionmemory.sv"
+sv xil_defaultlib  "../../../../Lab 7/Lab 7.srcs/sources_1/new/mux2.sv"
+sv xil_defaultlib  "../../../../Lab 7/Lab 7.srcs/sources_1/new/regfile.sv"
+sv xil_defaultlib  "../../../Final Project.srcs/sources_1/new/tb_RISC_V.sv"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
