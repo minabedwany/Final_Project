@@ -1,0 +1,2 @@
+* linguist-vendored
+*.systemverilog linguist-vendored=false
