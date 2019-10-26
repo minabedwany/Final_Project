@@ -1,0 +1,602 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/users/ugrad/2017/fall/mbedwany/Labs/Lab3/Lab_Files/sim
+vadder
+Z0 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z1 !s110 1552944342
+!i10b 1
+!s100 UBbl1emca8B5[I^V^Gz3=0
+I9o=fMfAa]o9Pi^M7NRK_I3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 adder_sv_unit
+S1
+Z3 d/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/sim
+Z4 w1552334885
+8/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/adder.sv
+F/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/adder.sv
+L0 3
+Z5 OL;L;10.4c;61
+r1
+!s85 0
+31
+Z6 !s108 1552944342.000000
+Z7 !s107 /users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/RISC_V.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/Datapath.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/Controller.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/RegFile.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/alu.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/ALUController.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/instructionmemory.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/datamemory.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/mux3.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/mux2.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/imm_Gen.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/flopr.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/adder.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/mem_wb_pipe.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/ex_mem_pipe.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/id_ex_pipe.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/if_id_pipe.sv|
+Z8 !s90 -quiet|-64|-sv|-f|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/rtl.cfg|+define+__SIM__|
+!i113 0
+Z9 o-quiet -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 !s92 -quiet -sv +define+__SIM__ -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+valu
+R0
+R1
+!i10b 1
+!s100 W3VK<kffh50Sb3z9>jYSJ2
+Im1KFWDkVz[94`XHDIKUQJ0
+R2
+!s105 alu_sv_unit
+S1
+R3
+R4
+8/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/alu.sv
+F/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/alu.sv
+Z11 L0 23
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vALUController
+R0
+R1
+!i10b 1
+!s100 03IMZ`?Sa6mz]NY;AZ[Hz2
+I44RzdVSe_Uj9SV70R6Rd^0
+R2
+!s105 ALUController_sv_unit
+S1
+R3
+R4
+8/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/ALUController.sv
+F/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/ALUController.sv
+R11
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+n@a@l@u@controller
+vController
+R0
+Z12 !s110 1552944343
+!i10b 1
+!s100 zd2VBmD9zP`0j[05[:5bm1
+IHo7_a5G4Z86GAKVo4cPkH0
+R2
+!s105 Controller_sv_unit
+S1
+R3
+R4
+8/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/Controller.sv
+F/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/Controller.sv
+Z13 L0 22
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+n@controller
+vdatamemory
+R0
+R1
+!i10b 1
+!s100 G:[8U9ZFY@fXd>]J2hZ;>3
+I:[Nkdk@LU]:0@YH>HK2GM0
+R2
+!s105 datamemory_sv_unit
+S1
+R3
+R4
+8/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/datamemory.sv
+F/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/datamemory.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vDatapath
+R0
+Z14 DXx4 work 11 my_112l_pkg 0 22 m<D>iRU:6dXnd4NN_45a`3
+DXx4 work 16 Datapath_sv_unit 0 22 e[ao;ZIX5HGm?kE_WBA[F1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 E:L4VloKfJ:dWYYE7Pb[Q0
+IBQb@MJCYYWWgA:DO^oZ>=3
+!s105 Datapath_sv_unit
+S1
+R3
+Z15 w1552944189
+Z16 8/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/Datapath.sv
+Z17 F/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/Datapath.sv
+L0 24
+R5
+R6
+R7
+R8
+!i113 0
+R9
+R10
+n@datapath
+XDatapath_sv_unit
+R0
+R14
+Ve[ao;ZIX5HGm?kE_WBA[F1
+r1
+!s85 0
+31
+!i10b 1
+!s100 QOJDPc=Y<:W`4M]eRKzk21
+Ie[ao;ZIX5HGm?kE_WBA[F1
+!i103 1
+S1
+R3
+R15
+R16
+R17
+R13
+R5
+R6
+R7
+R8
+!i113 0
+R9
+R10
+n@datapath_sv_unit
+vex_mem_pipe
+R0
+R14
+DXx4 work 19 ex_mem_pipe_sv_unit 0 22 ilR7a6C1L[HPHfhQ2LHXa3
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 FlR97hiZj6aNXk9X:BiDe2
+IbgLWPOYl][^D_Bd39Lf^F0
+!s105 ex_mem_pipe_sv_unit
+S1
+R3
+Z18 w1552944232
+Z19 8/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/ex_mem_pipe.sv
+Z20 F/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/ex_mem_pipe.sv
+L0 5
+R5
+R6
+R7
+R8
+!i113 0
+R9
+R10
+Xex_mem_pipe_sv_unit
+R0
+R14
+VilR7a6C1L[HPHfhQ2LHXa3
+r1
+!s85 0
+31
+!i10b 1
+!s100 _Hk^]?GA0Ek^g=DT1gHhj0
+IilR7a6C1L[HPHfhQ2LHXa3
+!i103 1
+S1
+R3
+R18
+R19
+R20
+L0 3
+R5
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vflopr
+R0
+R1
+!i10b 1
+!s100 bXFa5fL1nA^og[O_HVXSI3
+IU;7cF2TBaQd[>QYSR_Tne1
+R2
+!s105 flopr_sv_unit
+S1
+R3
+w1552734368
+8/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/flopr.sv
+F/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/flopr.sv
+R11
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vid_ex_pipe
+R0
+R14
+DXx4 work 18 id_ex_pipe_sv_unit 0 22 3FkXjWf;eMFedk6DIDl7b0
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 LWBN8fe>=LX5SIl=^27M10
+IQNUW@LKLOIWm[POHCC60e1
+!s105 id_ex_pipe_sv_unit
+S1
+R3
+Z21 w1552944209
+Z22 8/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/id_ex_pipe.sv
+Z23 F/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/id_ex_pipe.sv
+L0 5
+R5
+R6
+R7
+R8
+!i113 0
+R9
+R10
+Xid_ex_pipe_sv_unit
+R0
+R14
+V3FkXjWf;eMFedk6DIDl7b0
+r1
+!s85 0
+31
+!i10b 1
+!s100 =Oe6h`UDBB[jSK=4Dd3Fn3
+I3FkXjWf;eMFedk6DIDl7b0
+!i103 1
+S1
+R3
+R21
+R22
+R23
+L0 3
+R5
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vif_id_pipe
+R0
+R14
+DXx4 work 18 if_id_pipe_sv_unit 0 22 YzQJn`XlEf[YD4g;]VG[;0
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 LE1Lf_fVL[6:][z9<0WBE2
+IKUF_TR_8]cjzRHP>;]YHU3
+!s105 if_id_pipe_sv_unit
+S1
+R3
+Z24 w1552944200
+Z25 8/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/if_id_pipe.sv
+Z26 F/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/if_id_pipe.sv
+L0 5
+R5
+R6
+R7
+R8
+!i113 0
+R9
+R10
+Xif_id_pipe_sv_unit
+R0
+R14
+VYzQJn`XlEf[YD4g;]VG[;0
+r1
+!s85 0
+31
+!i10b 1
+!s100 3BS08I9d]B6][bhVh@ZK93
+IYzQJn`XlEf[YD4g;]VG[;0
+!i103 1
+S1
+R3
+R24
+R25
+R26
+L0 3
+R5
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vimm_Gen
+R0
+R1
+!i10b 1
+!s100 SgF<YJ;6N74RjLA<IPeIP0
+IRnB?0HI_6<^mz9Y<T6kP]0
+R2
+!s105 imm_Gen_sv_unit
+S1
+R3
+R4
+8/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/imm_Gen.sv
+F/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/imm_Gen.sv
+R11
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+nimm_@gen
+vinstructionmemory
+R0
+R1
+!i10b 1
+!s100 U_Ze;`;U^QK>EPoe0Jzie0
+IdBd3M4PnDQl_Qg8FRXJJn2
+R2
+!s105 instructionmemory_sv_unit
+S1
+R3
+w1552737453
+8/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/instructionmemory.sv
+F/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/instructionmemory.sv
+R11
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vmem_wb_pipe
+R0
+R14
+DXx4 work 19 mem_wb_pipe_sv_unit 0 22 `2><4c@SQ=ZRj=AQWOPXI0
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 Zf@>J7JZII93KiIK7_g@f3
+I]V469cnV662OdL@IMP`zB2
+!s105 mem_wb_pipe_sv_unit
+S1
+R3
+Z27 w1552944241
+Z28 8/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/mem_wb_pipe.sv
+Z29 F/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/mem_wb_pipe.sv
+L0 5
+R5
+R6
+R7
+R8
+!i113 0
+R9
+R10
+Xmem_wb_pipe_sv_unit
+R0
+R14
+V`2><4c@SQ=ZRj=AQWOPXI0
+r1
+!s85 0
+31
+!i10b 1
+!s100 X;g:fFAAj]>?=>l[^Omgl2
+I`2><4c@SQ=ZRj=AQWOPXI0
+!i103 1
+S1
+R3
+R27
+R28
+R29
+L0 3
+R5
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vmux2
+R0
+R1
+!i10b 1
+!s100 @X6>V^M3YMfab:XdY67SE1
+IY5N1F3O4^XF]K__J`98O13
+R2
+!s105 mux2_sv_unit
+S1
+R3
+R4
+8/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/mux2.sv
+F/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/mux2.sv
+R11
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vmux3
+R0
+R1
+!i10b 1
+!s100 ^Xz6i<fh<d_WzX57>JHkN2
+IW@7N0IEVjC;:dCcoge5AN2
+R2
+!s105 mux3_sv_unit
+S1
+R3
+w1552731411
+8/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/mux3.sv
+F/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/mux3.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+Xmy_112l_pkg
+R0
+!s110 1552738452
+!i10b 1
+!s100 8d21zWIgP@mUImUdf:kCW1
+Im<D>iRU:6dXnd4NN_45a`3
+Vm<D>iRU:6dXnd4NN_45a`3
+S1
+R3
+w1552729590
+8/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/my_112l_pkg.sv
+F/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/my_112l_pkg.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1552738451.000000
+!s107 /users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/my_112l_pkg.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/RISC_V.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/Datapath.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/Controller.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/RegFile.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/alu.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/ALUController.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/instructionmemory.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/datamemory.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/mux3.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/mux2.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/imm_Gen.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/flopr.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/adder.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/mem_wb_pipe.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/ex_mem_pipe.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/id_ex_pipe.sv|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/if_id_pipe.sv|
+!s90 -64|-sv|-f|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/rtl.cfg|+define+__SIM__|
+!i113 0
+o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -sv +define+__SIM__ -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vRegFile
+R0
+R12
+!i10b 1
+!s100 2cGb6>@mnQP5YGGLJFYg]1
+I_E3@]NJm7YJJSF]2JIj4O0
+R2
+!s105 RegFile_sv_unit
+S1
+R3
+R4
+8/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/RegFile.sv
+F/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/RegFile.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+n@reg@file
+vriscv
+R0
+R12
+!i10b 1
+!s100 `aJlmOBmTH4:^Z327kOeS0
+I:`;HPU;GeQc37HV=Bl:HL1
+R2
+!s105 RISC_V_sv_unit
+S1
+R3
+R4
+8/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/RISC_V.sv
+F/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/design/RISC_V.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vtb_top
+R0
+R12
+!i10b 1
+!s100 6eTghTVC1lA0UR3gl5Q[@3
+Ig?ZGGJ`50hMW95G:6=eZC1
+R2
+!s105 tb_top_sv_unit
+S1
+R3
+w1552792337
+8/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/verif/tb_top.sv
+F/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/verif/tb_top.sv
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1552944343.000000
+!s107 /users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/verif/tb_top.sv|
+!s90 -quiet|-64|-sv|-f|/users/ugrad/2017/fall/mbedwany/Labs/Lab4/Lab_Files/verif/tb.cfg|-work|work|
+!i113 0
+o-quiet -sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Ttb_top_opt
+!s110 1552944344
+VcaghA:0?E:A`]?23I1TGA2
+04 6 4 work tb_top fast 0
+o-quiet +acc -work work
+ntb_top_opt
+OL;O;10.4c;61
